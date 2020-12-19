@@ -4,18 +4,19 @@
 
 # Site
 title: Sahil's Journal
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+subtitle: 'Views are my own. And the Models. And the Controllers.'
+description: 'Keeping It Simple & Stupid'
+keywords: ['tech', 'blog']
+author: Sahil Ahuja
 language: en
-timezone: ''
+timezone: 'Asia/Kolkata'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://doku.dev
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: post/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -98,9 +99,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:sahil87/blog2020
+  branch: gh-pages
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
