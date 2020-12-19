@@ -15,4 +15,4 @@ fi
 hexo generate
 hexo deploy
 
-echo "Go to https://sahil87.github.io/bloghexo/ to check the blog"
+echo "Go to https://sahil87.github.io/blog2020/ to check the blog"
