@@ -1,39 +1,37 @@
 # Blog
 
-## To work with hexo
+## Working with Hexo
 
-### Authoring Shortcuts
+> https://hexo.io/docs/setup.html
+
+### Shortcuts
 
 * `hexo new "My New Post"`: create a new post . More info: [Writing](https://hexo.io/docs/writing.html)
 * `hexo server`: hexo watch mode. Open http://localhost:4000/admin/
 * `hexo generate`: Generate static files. More info: [Generating](https://hexo.io/docs/generating.html)
 * `./hexo-deploy.sh`: One Shot Commit/Deploy
 
-### Git pull an Existing Project
+### After git pull - initial setup
 
-* Clone repo
 * `yarn; yarn global add hexo-cli`
 * Checkout already existing submodules in this project: `git submodule update --init --recursive`
-* Add optional plugins for theme-next (out of source-control) `git clone https://github.com/theme-next/theme-next-fancybox3 themes/next/source/lib/fancybox`
+* First time: `git submodule add https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus`
 
-#### Adding a submodule (hexo theme)
+### Removing a submodule
 
-`git submodule add https://github.com/theme-next/hexo-theme-next themes/next`
+> https://stackoverflow.com/a/1260982
 
-#### Removing a submodule
+* **Main documentation:** https://hexo.io/docs/
+* **Configuration:** https://hexo.io/docs/configuration.html
 
-https://stackoverflow.com/a/1260982
+### Profiles
 
-**Main documentation:** https://hexo.io/docs/
-
-**Configuration:** https://hexo.io/docs/configuration.html
-
-### A new Hexo Project
-
-> https://hexo.io/docs/setup.html
-
-```bash
-hexo init <folder> #For new projects
-cd <folder>
-npm install
-```
+* Github: https://github.com/sahil87
+* Stackoverflow: http://stackoverflow.com/story/sahilahuja
+* Twitter: https://twitter.com/_sahilahuja
+* Linkedin: https://in.linkedin.com/in/ahujasahil
+* Medium: https://medium.com/@sahilahuja
+* Facebook: https://www.facebook.com/ahujasahil
+* Flickr: http://flickr.com/sahilahuja
+* Quora: https://quora.com/profile/Sahil-Ahuja-17
+* Email: 'mailto:sahilahuja@gmail.com'
