@@ -8,7 +8,7 @@ categories: [ "guide" ]
 description: Commands to keep dockers running
 ---
 
-Many we times we want dockers to keep running when started, either through `docker-compose` or `kubernetes`
+Many times we need dockers containers to keep running after they are started started either by using a `docker run / docker exec / docker-compose` command or while running as a `kubernetes` pod.
 
 <!--more-->
 

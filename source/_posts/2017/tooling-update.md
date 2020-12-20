@@ -10,7 +10,7 @@ While going over different technologies that could be used to augment the existi
 
 ### Motivation
 
-{% img /images/2017/swiss-knife.jpeg, Tooling Update %}
+{% img /images/2017/swiss-knife.jpeg "Tooling Update" %}
 
 While trying to interpret the nagging feeling that something was missing in the way we developed, I went down to my roots. Why do I think I can code well? This reminded me what some of my most complex and well written pieces of code were — Games. Games traditionally are the most difficult (and exciting) pieces of code to write because both the background complexity and the UI are an order of magnitude more complex than the usual day to day apps we are used to.
 

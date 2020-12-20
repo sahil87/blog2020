@@ -13,9 +13,15 @@
 
 ### After git pull - initial setup
 
-* `yarn; yarn global add hexo-cli`
-* Checkout already existing submodules in this project: `git submodule update --init --recursive`
-* First time: `git submodule add https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus`
+```bash
+#First time repo setup
+yarn global add hexo-cli
+git submodule add https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus
+
+#Everytime after git clone
+yarn install
+git submodule update --init --recursive
+```
 
 ### Removing a submodule
 

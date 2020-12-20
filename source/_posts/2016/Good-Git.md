@@ -10,7 +10,7 @@ featuredpath: "date"
 ---
 ## Most used (but yet unremembered) git commands
 
-{% img /images/2016/caveman4.jpg, Git Caveman %}
+{% img /images/2016/caveman4.jpg "Git Caveman" %}
 
 TLDR;
 ```bash

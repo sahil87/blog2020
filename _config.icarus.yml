@@ -103,6 +103,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
+        Quotes: /quotes
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
