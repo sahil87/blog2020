@@ -23,6 +23,10 @@ yarn install
 git submodule update --init --recursive
 ```
 
+### Writing articles
+
+* Adding blockquotes, images, youtube: https://hexo.io/docs/tag-plugins.html#Block-Quote
+
 ### Removing a submodule
 
 > https://stackoverflow.com/a/1260982
